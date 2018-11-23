@@ -1,0 +1,31 @@
+.snb_notification_bar{
+  z-index: 1001;  
+  position:fixed;
+  width: 100%;
+  background: #000;
+  color: #FFFFFF;
+  text-align:center;
+}
+
+.snb_notification_bar.display_top{
+  top:0;
+}
+
+.snb_notification_bar.display_bottom{
+  bottom:0;
+}
+
+.snb_notification_text{
+  padding: 10px;
+}
+
+.admin-bar .snb_notification_bar.display_top{
+  top:46px;
+}
+
+@media screen and (min-width: 783px){
+
+    .admin-bar .snb_notification_bar.display_top{
+      top:32px;
+    }
+}
